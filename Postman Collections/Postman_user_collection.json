@@ -48,48 +48,6 @@
       "response": []
     },
     {
-      "name": "Create new user \" user1 \"  Copy",
-      "event": [
-        {
-          "listen": "test",
-          "script": {
-            "id": "3d636a9e-4353-4a72-9b57-c44723b3c30d",
-            "exec": [
-              "pm.test(\"Status code is 200\", function () {\r",
-              "    pm.response.to.have.status(200);\r",
-              "});"
-            ],
-            "type": "text/javascript"
-          }
-        }
-      ],
-      "id": "7c5cb0d6-b186-4225-bd63-54b1949d1347",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "POST",
-        "header": [
-          {
-            "key": "accept",
-            "value": " application/json",
-            "type": "text"
-          },
-          {
-            "key": "Content-Type",
-            "value": " application/json",
-            "type": "text"
-          }
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": "{\r\n  \"id\": 0,\r\n  \"username\": \"user1\",\r\n  \"firstName\": \"Rehab\",\r\n  \"lastName\": \"Ali\",\r\n  \"email\": \"string\",\r\n  \"password\": \"123\",\r\n  \"phone\": \"string\",\r\n  \"userStatus\": 0\r\n}"
-        },
-        "url": "https://petstore.swagger.io/v2/user"
-      },
-      "response": []
-    },
-    {
       "name": "Get  info of  user1",
       "event": [
         {
