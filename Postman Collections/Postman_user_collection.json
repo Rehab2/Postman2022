@@ -21,7 +21,7 @@
           }
         }
       ],
-      "_postman_id": "657d92a8-0029-4286-8249-a5911f65474c",
+      "id": "657d92a8-0029-4286-8249-a5911f65474c",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -41,10 +41,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n  \"id\": 0,\r\n  \"username\": \"user1\",\r\n  \"firstName\": \"Rehab\",\r\n  \"lastName\": \"Ali\",\r\n  \"email\": \"string\",\r\n  \"password\": \"123\",\r\n  \"phone\": \"string\",\r\n  \"userStatus\": 0\r\n}",
-          "options": {
-            "raw": {}
-          }
+          "raw": "{\r\n  \"id\": 0,\r\n  \"username\": \"user1\",\r\n  \"firstName\": \"Rehab\",\r\n  \"lastName\": \"Ali\",\r\n  \"email\": \"string\",\r\n  \"password\": \"123\",\r\n  \"phone\": \"string\",\r\n  \"userStatus\": 0\r\n}"
         },
         "url": "https://petstore.swagger.io/v2/user"
       },
@@ -69,7 +66,7 @@
           }
         }
       ],
-      "_postman_id": "f67f82b9-6e68-4e18-ad70-b0de82648ab3",
+      "id": "f67f82b9-6e68-4e18-ad70-b0de82648ab3",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -108,7 +105,7 @@
           }
         }
       ],
-      "_postman_id": "12c97799-851f-4855-99bc-a5d96d78347c",
+      "id": "12c97799-851f-4855-99bc-a5d96d78347c",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -128,10 +125,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n \"id\": 516815998462475,\r\n  \"username\": \"user1\",\r\n  \"firstName\": \"Rehab\",\r\n  \"lastName\": \"Aly\",\r\n  \"email\": \"string\",\r\n  \"password\": \"123\",\r\n  \"phone\": \"string\",\r\n  \"userStatus\": 0\r\n  \r\n}",
-          "options": {
-            "raw": {}
-          }
+          "raw": "{\r\n \"id\": 516815998462475,\r\n  \"username\": \"user1\",\r\n  \"firstName\": \"Rehab\",\r\n  \"lastName\": \"Aly\",\r\n  \"email\": \"string\",\r\n  \"password\": \"123\",\r\n  \"phone\": \"string\",\r\n  \"userStatus\": 0\r\n  \r\n}"
         },
         "url": "https://petstore.swagger.io/v2/user/user1"
       },
@@ -156,7 +150,7 @@
           }
         }
       ],
-      "_postman_id": "ac49079d-a76a-467f-8f94-4d2a29cc7fdc",
+      "id": "ac49079d-a76a-467f-8f94-4d2a29cc7fdc",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -197,7 +191,7 @@
           }
         }
       ],
-      "_postman_id": "950974f5-b5d5-4b63-a8cc-23f0afd8ad09",
+      "id": "950974f5-b5d5-4b63-a8cc-23f0afd8ad09",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -254,7 +248,7 @@
           }
         }
       ],
-      "_postman_id": "fd544780-f25c-4b97-bf6f-f57baae8cbcf",
+      "id": "fd544780-f25c-4b97-bf6f-f57baae8cbcf",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -314,7 +308,7 @@
           }
         }
       ],
-      "_postman_id": "928f0b25-b3cc-4a6a-a979-2b20707aeed6",
+      "id": "928f0b25-b3cc-4a6a-a979-2b20707aeed6",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -334,10 +328,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "[\r\n  {\r\n    \"id\": 5,\r\n    \"username\": \"User2\",\r\n    \"firstName\": \"string\",\r\n    \"lastName\": \"string\",\r\n    \"email\": \"string\",\r\n    \"password\": \"string\",\r\n    \"phone\": \"string\",\r\n    \"userStatus\": 0\r\n  }\r\n]'",
-          "options": {
-            "raw": {}
-          }
+          "raw": "[\r\n  {\r\n    \"id\": 5,\r\n    \"username\": \"User2\",\r\n    \"firstName\": \"string\",\r\n    \"lastName\": \"string\",\r\n    \"email\": \"string\",\r\n    \"password\": \"string\",\r\n    \"phone\": \"string\",\r\n    \"userStatus\": 0\r\n  }\r\n]'"
         },
         "url": "https://petstore.swagger.io/v2/user/createWithArray",
         "description": "Creat list of users with given input array"
@@ -360,7 +351,7 @@
           }
         }
       ],
-      "_postman_id": "b113c763-9b54-4e00-9f23-5133a77833af",
+      "id": "b113c763-9b54-4e00-9f23-5133a77833af",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -380,10 +371,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "[\r\n  {\r\n    \"id\": 0,\r\n    \"username\": \"string\",\r\n    \"firstName\": \"string\",\r\n    \"lastName\": \"string\",\r\n    \"email\": \"string\",\r\n    \"password\": \"string\",\r\n    \"phone\": \"string\",\r\n    \"userStatus\": 0\r\n  }\r\n]'",
-          "options": {
-            "raw": {}
-          }
+          "raw": "[\r\n  {\r\n    \"id\": 0,\r\n    \"username\": \"string\",\r\n    \"firstName\": \"string\",\r\n    \"lastName\": \"string\",\r\n    \"email\": \"string\",\r\n    \"password\": \"string\",\r\n    \"phone\": \"string\",\r\n    \"userStatus\": 0\r\n  }\r\n]'"
         },
         "url": "https://petstore.swagger.io/v2/user/createWithList",
         "description": "Creat list of user with given input array "
@@ -406,7 +394,7 @@
           }
         }
       ],
-      "_postman_id": "bbc26588-d0df-4cf2-9cd1-5ef5a75d5d14",
+      "id": "bbc26588-d0df-4cf2-9cd1-5ef5a75d5d14",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -442,7 +430,7 @@
           }
         }
       ],
-      "_postman_id": "f696ef10-e456-4c49-8e2c-ea035538a870",
+      "id": "f696ef10-e456-4c49-8e2c-ea035538a870",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -450,6 +438,48 @@
         "method": "GET",
         "header": [],
         "url": "https://petstore.swagger.io/v2/user/User2"
+      },
+      "response": []
+    },
+    {
+      "name": "Create new user \" user1 \"  Copy",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "3d636a9e-4353-4a72-9b57-c44723b3c30d",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {\r",
+              "    pm.response.to.have.status(200);\r",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "id": "7c5cb0d6-b186-4225-bd63-54b1949d1347",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "accept",
+            "value": " application/json",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": " application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"id\": 0,\r\n  \"username\": \"user1\",\r\n  \"firstName\": \"Rehab\",\r\n  \"lastName\": \"Ali\",\r\n  \"email\": \"string\",\r\n  \"password\": \"123\",\r\n  \"phone\": \"string\",\r\n  \"userStatus\": 0\r\n}"
+        },
+        "url": "https://petstore.swagger.io/v2/user"
       },
       "response": []
     }
